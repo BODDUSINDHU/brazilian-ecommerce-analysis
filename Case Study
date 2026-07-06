@@ -1,0 +1,215 @@
+Case Study: Brazilian E-Commerce Analytics Dashboard
+📌 Project Overview
+
+In today's competitive e-commerce industry, businesses generate millions of transactions across customers, products, payments, and logistics. However, raw transactional data alone does not provide actionable insights for decision-makers.
+
+This project demonstrates how Microsoft Excel and Power Query can be used to transform raw Brazilian Olist marketplace data into an interactive business intelligence dashboard that helps executives monitor sales performance, customer behavior, operational efficiency, and revenue growth.
+
+Business Problem
+
+The organization stored its operational data across multiple disconnected tables, including:
+
+Orders
+Customers
+Products
+Sellers
+Payments
+Reviews
+Delivery Information
+
+Because of this fragmented structure, stakeholders struggled to answer key business questions such as:
+
+How much revenue is the business generating?
+Which months perform best?
+Are deliveries meeting customer expectations?
+What payment methods do customers prefer?
+Are customers returning after their first purchase?
+Which regions contribute the highest revenue?
+Which products generate the most sales?
+
+Without a centralized dashboard, executives relied on manual reports that were time-consuming and difficult to maintain.
+
+Project Objective
+
+The primary objective was to build an executive dashboard capable of:
+
+Monitoring business KPIs in real time
+Tracking revenue trends
+Measuring delivery performance
+Understanding customer purchasing behavior
+Evaluating customer satisfaction
+Identifying opportunities for business growth
+Supporting data-driven decision making
+Dataset
+Source
+
+Brazilian Olist Public E-Commerce Dataset
+
+Tables Used
+Customers
+Orders
+Order Items
+Payments
+Reviews
+Products
+Sellers
+Geolocation
+
+The dataset contains approximately 99,000 orders and covers multiple business dimensions.
+
+Tools & Technologies
+Tool	Purpose
+Microsoft Excel	Dashboard Development
+Power Query	Data Cleaning & Transformation
+Pivot Tables	Business Analysis
+Pivot Charts	Data Visualization
+Slicers	Interactive Filtering
+Data Preparation
+
+The raw dataset required extensive preprocessing before analysis.
+
+Data Cleaning
+Removed duplicate records
+Corrected inconsistent data formats
+Converted date columns
+Handled missing values
+Standardized categorical fields
+Data Transformation
+
+Using Power Query:
+
+Merged multiple relational tables
+Created calculated columns
+Built a consolidated analytical dataset
+Optimized the data model for reporting
+KPI Design
+
+The dashboard was designed around business-focused KPIs.
+
+KPI	Business Purpose
+Total Revenue	Measures overall business performance
+Total Orders	Tracks sales volume
+Average Order Value	Measures customer spending
+Delayed Delivery %	Evaluates logistics efficiency
+Average Review Score	Measures customer satisfaction
+Repeat Customer %	Evaluates customer retention
+Dashboard Features
+
+The dashboard includes:
+
+Executive KPI Cards
+Total Orders
+Revenue
+Average Order Value
+Delayed Deliveries
+Average Review Score
+Repeat Customer Rate
+Sales Analysis
+Monthly Revenue Trend
+Monthly Order Trend
+Customer Analysis
+Repeat vs New Customers
+Average Review Trend
+Operational Analysis
+Delivery Performance
+Delayed Delivery Percentage
+Product Analysis
+Revenue by Product Size
+Payment Analysis
+Payment Method Distribution
+Geographic Analysis
+Revenue by State
+Interactive Filters
+Order Year
+Customer State
+Product Category
+Payment Type
+Key Findings
+Revenue Performance
+Total Revenue reached R$15.8 Million.
+Nearly 98,666 orders were processed.
+Average Order Value was R$160.6.
+
+Insight: The business demonstrates strong sales performance with stable monthly revenue and seasonal fluctuations.
+
+Customer Retention
+Repeat Customer Rate is 25.83%.
+Around 74% of customers are first-time buyers.
+
+Insight: Customer acquisition is strong, but retention remains a major opportunity for increasing long-term revenue.
+
+Delivery Performance
+Only 6.59% of orders were delayed.
+More than 93% were delivered on time.
+
+Insight: Logistics operations are highly efficient and contribute positively to customer satisfaction.
+
+Customer Satisfaction
+Average Review Score is 4.03 out of 5.
+
+Insight: Customers generally have a positive shopping experience, indicating strong service quality.
+
+Product Performance
+
+Large and Medium products account for the majority of revenue.
+
+Insight: Revenue depends heavily on a limited group of product segments, suggesting opportunities to improve sales of smaller product categories.
+
+Payment Analysis
+
+Card payments dominate transactions.
+
+Insight: Customers show a clear preference for digital payment methods, highlighting the importance of maintaining a seamless digital checkout experience.
+
+Geographic Analysis
+
+Revenue is concentrated in a small number of states, with São Paulo (SP) contributing the highest share.
+
+Insight: Significant growth opportunities exist in underperforming regions through targeted marketing and logistics expansion.
+
+Business Recommendations
+Improve Customer Retention
+Introduce loyalty programs
+Personalized promotions
+Reward repeat purchases
+Email remarketing campaigns
+Expand Regional Presence
+Increase marketing investment in emerging states
+Partner with local sellers
+Improve logistics coverage
+Optimize Product Strategy
+Focus inventory on high-performing categories
+Bundle low-performing products
+Promote underperforming product segments
+Maintain Delivery Excellence
+Continue monitoring logistics KPIs
+Reduce delay causes
+Improve last-mile delivery performance
+Diversify Payment Methods
+Encourage digital wallets
+Offer payment-specific discounts
+Reduce dependence on a single payment channel
+Business Impact
+
+The dashboard provides decision-makers with a centralized reporting solution that:
+
+Eliminates manual reporting
+Tracks business KPIs in one place
+Improves visibility into sales and operations
+Supports strategic planning
+Identifies growth opportunities
+Enables faster, data-driven decision-making
+Skills Demonstrated
+Business Analytics
+Data Cleaning
+Data Transformation
+Power Query
+Dashboard Design
+KPI Development
+Data Visualization
+Excel Automation
+Business Storytelling
+Analytical Thinking
+Project Outcome
+
+The Brazilian E-Commerce Analytics Dashboard successfully transformed raw transactional data into an interactive executive reporting solution. By consolidating multiple datasets into a unified dashboard, the project enabled comprehensive monitoring of sales, customer behavior, logistics, and regional performance. The insights generated help stakeholders identify revenue drivers, operational strengths, and customer retention opportunities, making the dashboard a practical tool for data-driven business decision-making.
